@@ -17,17 +17,17 @@ Tóm tắt ngắn gọn mục tiêu của bài lab.
 
 | Input       | Entropy | Redundancy | Nhận xét |
 | ----------- | ------: | ---------: | ---------- |
-| aaaa        |       a |          a | a          |
-| abcd        |       a |          a | a          |
-| hello world |       a |          a | a          |
+| aaaa        |       0 |          8 | cao        |
+| abcd        |       2 |          6 | vẫn cao   |
+| hello world | 2.84535 |    5.15465 | cân đối |
 
 ### 3.2 Modulo inverse
 
 |  a |  m | Kết quả mong đợi | Kết quả chương trình |
 | -: | -: | -------------------- | ------------------------- |
-|  3 |  7 | 5                    | a                         |
-| 10 | 17 | 12                   | a                         |
-|  6 |  9 | Không tồn tại     | a                         |
+|  3 |  7 | 5                    | 5                         |
+| 10 | 17 | 12                   | 12                        |
+|  6 |  9 | Không tồn tại     | Không tồn tại          |
 
 ## 4. Kết luận
 
