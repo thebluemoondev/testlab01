@@ -29,7 +29,10 @@ int mod_inverse(int a, int m) {
     int x = 0, y = 0;
     int g = extended_euclid(a, m, x, y);
 
-    // chuẩn hóa về số dương trong [0, m-1]
+    if (g != 1) {
+        return 0; 
+    }
+
     return (x % m + m) % m;
 }
 
